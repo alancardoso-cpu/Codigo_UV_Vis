@@ -1,5 +1,4 @@
-# Prueba
-preuba de repositorio
+# 
 
 instrucciones: 
 
@@ -8,19 +7,14 @@ el rango esta definivo con base al numero de archivos que tengas:
 ejemplo si tienes nombre1.txt ... mombre 10.txt, ences el rango seria
 range(1,11) esto porque empieza en 1 y termina en 10. ya que no se lee el 11.
 
-Despues defines los datos experimentales de tu experimento:
+Despues defines los datos experimentales de tu experimento(En Grafica_lineal Son los mismos datos que se requieren en Grafica_modular, pero se definen de forma directa (sin el self.)):
 
 En Grafica_modular:
 self.m es la masa del catalizador(g), self.M es la masa del catalizador(g),self.masa_molar_catalizador, es la masa_molar_catalizador, self.masa_molar_contaminante es la masa del contaminate, y self.T es la temperatura en la que hisiste el experimento(k).
 
-En Grafica_lineal:
+Despues defines los datos de la grafica UV-Vis, tales como 
+self.valores_primera = [] y self.valores_ultima = [] endonde defines sobre que linea y en que valores se colocaran las lineas punteadas al graficar.
+self.lambda_objetivo = en donde defines el valor de longitud de onda el cual se usara para hacer los calculos cataliticos.
 
 
-Despues defines los datos de la grafica UV-Vis, tales como:
-self.lambda_objetivo, en donde 
 
-        # Datos para gráficas
-        self.valores_primera = [422]
-        self.valores_ultima = [245, 260, 285]
-
-        self.lambda_objetivo = 410
