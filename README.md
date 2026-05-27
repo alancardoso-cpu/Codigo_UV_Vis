@@ -14,6 +14,7 @@ self.m es la masa del catalizador(g), self.M es la masa del catalizador(g),self.
 
 Despues defines los datos de la grafica UV-Vis, tales como 
 self.valores_primera = [] y self.valores_ultima = [] endonde defines sobre que linea y en que valores se colocaran las lineas punteadas al graficar.
+
 self.lambda_objetivo = en donde defines el valor de longitud de onda el cual se usara para hacer los calculos cataliticos.
 
 
