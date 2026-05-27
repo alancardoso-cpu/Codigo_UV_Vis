@@ -17,5 +17,9 @@ self.valores_primera = [] y self.valores_ultima = [] endonde defines sobre que l
 
 self.lambda_objetivo = en donde defines el valor de longitud de onda el cual se usara para hacer los calculos cataliticos.
 
+Finalmente se edita las flechas y sus etiquetas en la seccion de "graficar UVVis(si estan en Graficar_modular) o ". en donde uno define manaulmente el timepo y porcentaje que se degrado.
+
+Con 
+
 
 
