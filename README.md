@@ -1,9 +1,14 @@
 # 
 Especificaciones:
+
 Python 3.12.13
+
 Pandas: 2.2.2
+
 Matplotlib: 3.10.0
+
 NumPy: 2.0.2
+
 SciPy: 1.16.3
 
 instrucciones: 
