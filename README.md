@@ -1,4 +1,10 @@
 # 
+Especificaciones:
+Python 3.12.13
+Pandas: 2.2.2
+Matplotlib: 3.10.0
+NumPy: 2.0.2
+SciPy: 1.16.3
 
 instrucciones: 
 
@@ -17,9 +23,9 @@ self.valores_primera = [] y self.valores_ultima = [] endonde defines sobre que l
 
 self.lambda_objetivo = en donde defines el valor de longitud de onda el cual se usara para hacer los calculos cataliticos.
 
-Finalmente se edita las flechas y sus etiquetas en la seccion de "graficar UVVis(si estan en Graficar_modular) o ". en donde uno define manaulmente el timepo y porcentaje que se degrado.
+Finalmente se edita las flechas y sus etiquetas en la seccion de "graficar UVVis(si estan en Graficar_modular) o lineas y flechas(si estan en Grafica_lineal)". en donde uno define manaulmente el timepo y porcentaje que se degrado.
 
-Con 
+Con todo eso editado, ya uno puede correr todos los bloques y obtener el resultado
 
 
 
