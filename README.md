@@ -11,26 +11,28 @@ NumPy: 2.0.2
 
 SciPy: 1.16.3
 
-instrucciones: 
+Instructions
 
-Para que el notebook funcione bien los archivos deben venir el formato ".txt" y con numero secuanciado.
-el rango esta definivo con base al numero de archivos que tengas:
-ejemplo si tienes nombre1.txt ... mombre 10.txt, ences el rango seria
-range(1,11) esto porque empieza en 1 y termina en 10. ya que no se lee el 11.
+For the notebook to work properly, all input files must be in .txt format and named using a sequential numbering system. The file range must be defined according to the total number of files available. For example, if your files are named name1.txt through name10.txt, the range should be defined as range(1,11). This is because Python includes the starting value but excludes the ending value, meaning that files 1 through 10 will be processed, while 11 will not be included.
 
-Despues defines los datos experimentales de tu experimento(En Grafica_lineal Son los mismos datos que se requieren en Grafica_modular, pero se definen de forma directa (sin el self.)):
+Next, define the experimental parameters required for your analysis. In plot_lineal, these parameters are the same as those used in plot_modular, but they are defined directly without the self. prefix.
 
-En Grafica_modular:
-self.m es la masa del catalizador(g), self.M es la masa del catalizador(g),self.masa_molar_catalizador, es la masa_molar_catalizador, self.masa_molar_contaminante es la masa del contaminate, y self.T es la temperatura en la que hisiste el experimento(k).
+For plot_modular, the parameters are:
 
-Despues defines los datos de la grafica UV-Vis, tales como 
-self.valores_primera = [] y self.valores_ultima = [] endonde defines sobre que linea y en que valores se colocaran las lineas punteadas al graficar.
+self.m: catalyst mass (g)
+self.M: contaminant mass (g)
+self.masa_molar_catalizador: catalyst molar mass (g/mol)
+self.masa_molar_contaminante: contaminant molar mass (g/mol)
+self.T: experimental temperature (K)
 
-self.lambda_objetivo = en donde defines el valor de longitud de onda el cual se usara para hacer los calculos cataliticos.
+Afterward, define the UV–Vis plotting parameters, such as self.valores_primera = [] and self.valores_ultima = []. These variables determine the positions and values where the dashed reference lines will be displayed on the UV–Vis plot.
 
-Finalmente se edita las flechas y sus etiquetas en la seccion de "graficar UVVis(si estan en Graficar_modular) o lineas y flechas(si estan en Grafica_lineal)". en donde uno define manaulmente el timepo y porcentaje que se degrado.
+The variable self.lambda_objetivo defines the target wavelength that will be used for the photocatalytic calculations.
 
-Con todo eso editado, ya uno puede correr todos los bloques y obtener el resultado
+Finally, edit the arrows and their labels in the Graficar UVVis section (if using plot_modular) or in the Lineas y flechas section (if using plot_lineal). In these sections, the user manually specifies the degradation time and percentage values that will be displayed on the plots.
+
+Once all these parameters have been configured, simply run all notebook cells to generate the plots and obtain the final results.
+
 
 
 
