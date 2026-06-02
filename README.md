@@ -29,7 +29,7 @@ Afterward, define the UV–Vis plotting parameters, such as self.valores_primera
 
 The variable self.lambda_objetivo defines the target wavelength that will be used for the photocatalytic calculations.
 
-Finally, edit the arrows and their labels in the Graficar UVVis section (if using plot_modular) or in the Lineas y flechas section (if using plot_lineal). In these sections, the user manually specifies the degradation time and percentage values that will be displayed on the plots.
+Finally, edit the arrows and their labels in the UVVis plotter section (if using plot_modular) or in the Lines and arrows section (if using plot_lineal). In these sections, the user manually specifies the degradation time and percentage values that will be displayed on the plots.
 
 Once all these parameters have been configured, simply run all notebook cells to generate the plots and obtain the final results.
 
