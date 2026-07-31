@@ -1,5 +1,5 @@
 # 
-Especificaciones:
+Specifications:
 
 Python 3.12.13
 
