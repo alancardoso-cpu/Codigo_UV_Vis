@@ -21,13 +21,13 @@ For plot_modular, the parameters are:
 
 self.m: catalyst mass (g)
 self.M: contaminant mass (g)
-self.masa_molar_catalizador: catalyst molar mass (g/mol)
-self.masa_molar_contaminante: contaminant molar mass (g/mol)
+self.mass_molar_catalyst: catalyst molar mass (g/mol)
+self.mass_molar_contaminant: contaminant molar mass (g/mol)
 self.T: experimental temperature (K)
 
-Afterward, define the UV–Vis plotting parameters, such as self.valores_primera = [] and self.valores_ultima = []. These variables determine the positions and values where the dashed reference lines will be displayed on the UV–Vis plot.
+Afterward, define the UV–Vis plotting parameters, such as self.val_first = [] and self.val_last = []. These variables determine the positions and values where the dashed reference lines will be displayed on the UV–Vis plot.
 
-The variable self.lambda_objetivo defines the target wavelength that will be used for the photocatalytic calculations.
+The variable self.lambda_target defines the target wavelength that will be used for the photocatalytic calculations.
 
 Finally, edit the arrows and their labels in the UVVis plotter section (if using plot_modular) or in the Lines and arrows section (if using plot_lineal). In these sections, the user manually specifies the degradation time and percentage values that will be displayed on the plots.
 
